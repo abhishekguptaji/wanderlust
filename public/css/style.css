@@ -1,0 +1,101 @@
+body{
+ display:flex;
+ flex-direction:column;
+ min-height:100vh;
+}
+.container{
+  flex:1;
+}
+
+/*-------------Navbar style-------- */
+.navbar{
+  height:4rem;
+  background-color:white;
+}
+.fa-compass{
+  color:#fe424d;
+  font-size:2rem;
+}
+.nav-link{
+  color:#222222 !important;
+}
+
+/* ------------Footer style---------- */
+.f-info-links a{
+  text-decoration:none;
+  color:#222222;
+}
+
+.f-info-links a:hover{
+  text-decoration:underline;
+}
+.f-info{
+  text-align:center;
+  display:flex;
+  height:8rem;
+  flex-wrap:wrap;
+  justify-content:center;
+  background-color:#ebebeb;
+  align-items:space-evenly;
+}
+.f-info-socials i{
+  margin-right:1rem;
+  font-size: 1.3em;
+}
+.f-info-links,
+.f-info-socials,
+.f-info-brands{
+  width:100%;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+}
+/*Card*/
+.row{
+  width:100%;
+  object-fit:cover !important;
+}
+.listing-card{
+  border:none !important;
+  margin-bottom:2rem;
+}
+.card-img-top{
+  border-radius:1rem !important;
+  width:100% !important;
+  object-fit:cover !important;
+}
+.card-body{
+  padding:0 !important;
+}
+.card-text p{
+  font-weight:400 !important;
+}
+.link{
+  text-decoration:none;
+}
+/* Card Effect */
+.card-img-overlay{
+  opacity:0;
+}
+.card-img-overlay:hover{
+  opacity:0.2;
+  background-color:white;
+}
+.card-text{
+  color:black;
+}
+.add-btn{
+  background-color:aquamarine !important;
+  border:none !important;
+  color:black;
+}
+
+/* show Page*/
+.show-img{
+  height:30vh;
+
+}
+
+.btns{
+  display:flex;
+}
